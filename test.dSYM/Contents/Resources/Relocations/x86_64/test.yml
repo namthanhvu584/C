@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/macbook/Desktop/C/test'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _check_brand, symObjAddr: 0x0, symBinAddr: 0x100001350, symSize: 0xB0 }
+  - { offset: 0x59, size: 0x8, addend: 0x0, symName: _check_brand, symObjAddr: 0x0, symBinAddr: 0x100001350, symSize: 0xB0 }
+  - { offset: 0x9D, size: 0x8, addend: 0x0, symName: _get_ram, symObjAddr: 0xB0, symBinAddr: 0x100001400, symSize: 0xB0 }
+  - { offset: 0xC5, size: 0x8, addend: 0x0, symName: _input, symObjAddr: 0x160, symBinAddr: 0x1000014B0, symSize: 0x3A0 }
+  - { offset: 0x134, size: 0x8, addend: 0x0, symName: _create_id, symObjAddr: 0x500, symBinAddr: 0x100001850, symSize: 0x170 }
+  - { offset: 0x190, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x670, symBinAddr: 0x1000019C0, symSize: 0xF0 }
+  - { offset: 0x1D0, size: 0x8, addend: 0x0, symName: _sort_price, symObjAddr: 0x760, symBinAddr: 0x100001AB0, symSize: 0x140 }
+  - { offset: 0x23F, size: 0x8, addend: 0x0, symName: _search, symObjAddr: 0x8A0, symBinAddr: 0x100001BF0, symSize: 0x140 }
+  - { offset: 0x28D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9E0, symBinAddr: 0x100001D30, symSize: 0xD6 }
+...
